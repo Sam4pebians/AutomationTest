@@ -19,7 +19,7 @@ describe(SuiteNames.eySmokeSuite, () => {
         await HomePageHelper.verifyEngineYardCloudPage();
     });
 
-    fit('Verify "Add an Application" link is available in Engine Yard Home Page - [1318903]', async () => {
+    it('Verify "Add an Application" link is available in Engine Yard Home Page - [1318903]', async () => {
         const stepLogger = new StepLogger(1318903);
         stepLogger.stepId(3);
         const addAnApplicationLink = HomePage.addAnApplicationLink;
